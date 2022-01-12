@@ -1,0 +1,46 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1 style="color:white">Live Update</h1>
+</div>
+
+<div class="row">
+
+    <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">Date And Time</th>
+          
+                <th scope="col">Country</th>
+                <th scope="col">Total Population</th>
+               
+                <th scope="col">Active Cases</th>
+                <th scope="col">Critical Cases</th>
+                <th scope="col">Recovered Cases</th>
+                <th scope="col">Total Cases</th>
+                <th scope="col">Total Deaths</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in ViewBag.result)
+            {
+            <tr>
+                <th scope="row">@item.time</th>
+               
+                <td>@item.country</td>
+                <td>@item.population</td>
+
+                <td>@item.cases.active</td>
+                <td>@item.cases.critical</td>
+                <td>@item.cases.recovered</td>
+                <td>@item.cases.total</td>
+
+                <td>@item.deaths.total</td>
+
+            </tr>
+            }
+        </tbody>
+    </table>
+</div>
