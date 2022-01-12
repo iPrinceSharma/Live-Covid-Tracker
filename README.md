@@ -9,3 +9,16 @@ API Used - https://rapidapi.com/api-sports/api/covid-193
 
 How to Run - Extract the RAR Package and Simply Run CovidTracking.sln in Visual Studio.
 Note : Make sure you've all the extensions downloaded in Visual Studio.
+
+Languages & Framework Used
+
+Back-end
+1. C# (ASP .Net Core MVC)
+
+Front-End 
+1. HTML
+2. CSS
+3. Bootstrap
+4. JavaScript
+5. jQuery
+
