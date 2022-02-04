@@ -3,19 +3,23 @@ Information can be seen in 2 Different Ways.
 1.  Current- In this section users will get Live Updates of COVID Cases of all countries with Active Cases, Critical Cases, Deaths, Recovered Cases and Total Cases in whole Population. All the Information is Updated every Few Minutes/Hours.
 2.  History- In this Section, Users Can filter Information according to the Country and Date to see the Active Cases, Critical Cases, Deaths, Recovered Cases and Total Cases of that Particular Country on a Specific date.
 
-Note : Default Country is set to India but it can be changed.
+![Screenshot (7)](https://user-images.githubusercontent.com/75582871/152463286-78bc0ad1-a5a7-4707-9e28-60b508477715.png)
+![Screenshot (8)](https://user-images.githubusercontent.com/75582871/152463287-520aea43-8c1b-4799-ac57-cb3987831147.png)
 
-API Used - https://rapidapi.com/api-sports/api/covid-193
 
-How to Run - Extract the RAR Package and Simply Run CovidTracking.sln in Visual Studio.
-Note : Make sure you've all the extensions downloaded in Visual Studio.
+**Note** : Default Country is set to India but it can be changed.
 
-Languages & Framework Used
+**API Used** - https://rapidapi.com/api-sports/api/covid-193
 
-Back-end
+**How to Run** - Extract the RAR Package and Simply Run CovidTracking.sln in Visual Studio.
+**Note** : Make sure you've all the extensions downloaded in Visual Studio.
+
+**Languages & Framework Used**
+
+**Back-end**
 1. C# (ASP .Net Core MVC)
 
-Front-End 
+**Front-End** 
 1. HTML
 2. CSS
 3. Bootstrap
